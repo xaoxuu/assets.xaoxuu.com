@@ -1,7 +1,8 @@
 name: auto deploy # workflow name
 
 on:
-  [push] # 触发事件
+  workflow_dispatch:
+  # push:
 
 jobs:
   build:
